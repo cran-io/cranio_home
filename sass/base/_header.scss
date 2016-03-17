@@ -1,0 +1,32 @@
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 24px 0;
+	z-index: 1;
+
+	.logo {
+		float: left;
+
+		img {
+			width: 150px;
+		}
+	}
+
+	nav {
+		float: right;
+    	margin-top: 15px;
+
+		li {
+			color: white;
+			display: inline-block;
+			margin: 0 5px;
+
+			a {
+				color: white;
+				text-decoration: none;
+			}
+		}	
+	}
+}

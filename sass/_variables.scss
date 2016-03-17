@@ -1,0 +1,29 @@
+// Text
+
+$font-sizes: (
+	small: 0.8rem,
+	regular: 1rem,
+	highlight: 1.4rem,
+	big: 2.4rem,
+	biggest: 2.8rem
+);
+
+// Colors
+
+$grey:(
+	dark: #222,
+	regular: #888,
+	light: #fafafa
+);
+
+$blue:( 
+	regular: #164c89,
+	light: #6c6f98
+);
+
+$violete: #ce0058;
+
+
+// animate
+
+$easing: .3s ease-in-out;

@@ -1,0 +1,12 @@
+.page-home {
+	background: transparent url(../images/home-bg.jpg) no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+
+	.home-copy {
+		width: 98%;
+		max-width: 565px;
+		@include center-align;
+	}
+}

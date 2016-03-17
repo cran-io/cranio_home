@@ -1,0 +1,89 @@
+html, body {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 12px;
+}
+
+// Text
+h1 {
+	font-size: map-get($font-sizes, biggest);
+	line-height: 1.2em;
+	padding: 24px 0 15px;
+}
+
+h2 {
+	font-size: map-get($font-sizes, big);
+	line-height: 1.2em;
+	padding: 20px 0 15px;
+}
+
+h3 {
+	font-size: map-get($font-sizes, highlight);
+	line-height: 1.2em;
+	padding: 15px 0 10px;
+}
+
+p {
+	line-height: 1.4em;
+}
+
+.white {
+	color: white;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-highlight {
+	font-size: map-get($font-sizes, highlight);
+}
+
+// Layout
+
+section {
+	position: relative;
+	z-index: 0;
+}
+
+.content-wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 98%;
+	max-width: 1024px;
+}
+
+// buttons
+
+button, a {
+	@include transition(all $easing);
+
+	&.white {
+		color: white;
+	}	
+
+	&.ghost {
+		border:1px solid map-get($blue, regular);
+		padding:10px 15px;
+		color: map-get($blue, regular);
+		@include border-radius(4px);
+
+		&:hover {
+			color: $violete;
+			border:1px solid $violete;
+		}
+
+		&.white {
+			color: white;
+			border:1px solid white;
+
+			&:hover {
+				color: $violete;
+				border:1px solid $violete;
+			}
+		}
+	}
+
+	&:hover {
+		color: $violete;
+	}
+}

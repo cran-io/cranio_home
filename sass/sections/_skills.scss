@@ -1,0 +1,23 @@
+.page-skills {
+	background: map-get($grey, light);
+	padding: 24px 0;
+	@include clearfix;
+}
+
+.skills {
+	
+	li {
+		$count-skills: 5;
+		float: left;
+		width: (100%/$count-skills);
+		padding: 0 15px;
+		text-align: center;
+		border-left: 1px solid map-get($grey, regular);
+		color: map-get($blue, light);
+
+		img {
+			width: 60px;
+		}
+	}
+}
+
