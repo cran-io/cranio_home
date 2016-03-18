@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://cran.io"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://cran.io/es/</loc>
+    <xhtml:link
+                 rel="alternate"
+                 hreflang="es"
+                 href="http://cran.io/es/"
+                 />
+
+    <xhtml:link
+                 rel="alternate"
+                 hreflang="en"
+                 href="http://cran.io/en/"
+                 />
+  </url>
+
+  <url>
+    <loc>http://cran.io/en/</loc>
+    <xhtml:link
+                 rel="alternate"
+                 hreflang="en"
+                 href="http://cran.io"
+                 />
+     <xhtml:link
+                 rel="alternate"
+                 hreflang="es"
+                 href="http://cran.io/es/"
+                 />
+</urlset>
