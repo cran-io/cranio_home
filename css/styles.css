@@ -60,12 +60,14 @@ h1 {
   font-size: 2.8rem;
   line-height: 1.2em;
   padding: 24px 0 15px;
+  text-align: center;
 }
 
 h2 {
   font-size: 2.4rem;
   line-height: 1.2em;
   padding: 20px 0 15px;
+  text-align: center;
 }
 
 h3 {
@@ -106,6 +108,7 @@ button, a {
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  text-decoration: none;
 }
 button.white, a.white {
   color: white;
@@ -202,4 +205,26 @@ header nav li a {
 }
 .skills li img {
   width: 60px;
+}
+
+.projects li {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+.projects li .img {
+  width: 35%;
+  float: left;
+}
+.projects li .project-info {
+  width: 45%;
+  float: right;
+}
+.projects li:nth-child(2n) .img {
+  width: 35%;
+  float: right;
+}
+.projects li:nth-child(2n) .project-info {
+  width: 45%;
+  float: left;
 }

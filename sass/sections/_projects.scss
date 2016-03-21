@@ -1,0 +1,35 @@
+.page-projects {
+
+}
+
+.projects {
+
+	li {
+		width: 100%;
+		position: relative;
+		text-align: center;
+
+		.img {
+			width: 35%;
+			float: left;
+		}
+
+		.project-info {
+			width: 45%;
+			float: right;
+		}
+
+		&:nth-child(2n){
+
+			.img {
+				width: 35%;
+				float: right;
+			}
+
+			.project-info {
+				width: 45%;
+				float: left;
+			}
+		}
+	}
+}

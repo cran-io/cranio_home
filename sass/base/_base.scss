@@ -8,12 +8,14 @@ h1 {
 	font-size: map-get($font-sizes, biggest);
 	line-height: 1.2em;
 	padding: 24px 0 15px;
+	text-align: center;
 }
 
 h2 {
 	font-size: map-get($font-sizes, big);
 	line-height: 1.2em;
 	padding: 20px 0 15px;
+	text-align: center;
 }
 
 h3 {
@@ -56,6 +58,7 @@ section {
 
 button, a {
 	@include transition(all $easing);
+	text-decoration: none;
 
 	&.white {
 		color: white;
