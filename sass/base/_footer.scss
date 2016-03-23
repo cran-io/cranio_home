@@ -1,0 +1,12 @@
+footer {
+	background: map-get($grey, regular-dark);
+	padding: 24px;
+
+	a {
+		color: white;
+
+		&:hover {
+			color: $violete;			
+		}
+	}
+}
