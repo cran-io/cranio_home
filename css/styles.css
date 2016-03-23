@@ -179,12 +179,37 @@ header nav li a {
 footer {
   background: #4A4A4A;
   padding: 24px;
+  clear: both;
+}
+footer:before, footer:after {
+  content: " ";
+  display: table;
+}
+footer:after {
+  clear: both;
+}
+footer h2 {
+  text-align: left;
 }
 footer a {
   color: white;
 }
 footer a:hover {
   color: #ce0058;
+}
+footer .contact-data, footer .follow {
+  float: left;
+  width: 25%;
+  padding-right: 34px;
+  line-height: 1.5em;
+}
+footer .we-are {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+footer .we-are h2 {
+  text-align: right;
 }
 
 .page-home {

@@ -1,12 +1,34 @@
 footer {
 	background: map-get($grey, regular-dark);
 	padding: 24px;
+	@include clearfix;
+
+	h2 {
+		text-align: left;
+	}
 
 	a {
 		color: white;
 
 		&:hover {
 			color: $violete;			
+		}
+	}
+
+	.contact-data, .follow {
+		float:left;
+		width: 25%;
+		padding-right: 34px;
+		line-height: 1.5em;
+	}
+
+	.we-are {
+		float: right;
+		width: 50%;
+		text-align: right;
+
+		h2 {
+			text-align: right;
 		}
 	}
 }
