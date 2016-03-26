@@ -1,4 +1,13 @@
 .page-contact {
 	background: $violete;
 	text-align: center;
+	
+	a {
+		
+		&.ghost {
+			font-size: map-get($font-sizes, highlight);
+		    border-width: 2px;
+		    margin: 24px 0;
+		}
+	}
 }
