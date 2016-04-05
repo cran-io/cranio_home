@@ -277,11 +277,23 @@ footer .we-are h2 {
 
 .skills li {
   float: left;
-  width: 20%;
-  padding: 0 15px;
+  width: 100%;
+  padding: 15px 25px;
   text-align: center;
-  border-left: 1px solid #888;
+  border-left: none;
+  border-bottom: 1px solid #888;
   color: #6c6f98;
+}
+.skills li:last-child {
+  border-bottom: none;
+}
+@media (min-width: 768px) {
+  .skills li {
+    padding: 0 15px;
+    width: 20%;
+    border-left: 1px solid #888;
+    border-bottom: none;
+  }
 }
 .skills li img {
   width: 60px;
@@ -331,6 +343,7 @@ footer .we-are h2 {
   width: 100%;
   margin: 45px 0 0;
   padding: 70px 0;
+  overflow: hidden;
   position: relative;
 }
 .comments .flex-viewport {
@@ -423,15 +436,63 @@ footer .we-are h2 {
 }
 .page-team .team {
   width: 100%;
+  margin: 30px 0;
   text-align: center;
 }
-.page-team .team li {
-  width: 150px;
-  display: inline-block;
-  margin: 20px;
-}
-.page-team .team img {
+.page-team .team .black-box {
+  background: rgba(22, 76, 137, 0.6);
+  opacity: 0;
   width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  padding: 15px;
+  text-align: left;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+.page-team .team .black-box h3 {
+  padding: 0px;
+}
+.page-team .team li {
+  width: 100vw;
+  height: 100vw;
+  margin: 10px 0;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  position: relative;
+}
+.page-team .team li img {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -moz-transition: width 1.5s ease-in-out;
+  -webkit-transition: width 1.5s ease-in-out;
+  transition: width 1.5s ease-in-out;
+  z-index: 0;
+}
+.page-team .team li:hover .black-box {
+  opacity: 1;
+}
+@media (min-width: 768px) {
+  .page-team .team li {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+  .page-team .team li:hover {
+    width: 200px;
+  }
+  .page-team .team li:hover img {
+    width: 120%;
+  }
 }
 
 .page-contact {
