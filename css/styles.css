@@ -260,7 +260,14 @@ footer .we-are h2 {
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  letter-spacing: 1.5px;
 }
+
+.page-home .home-copy h1{
+  letter-spacing: 2.00px;
+  color: white;
+}
+
 
 .page-skills {
   background: #fafafa;
