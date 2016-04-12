@@ -9,11 +9,23 @@
 	li {
 		$count-skills: 5;
 		float: left;
-		width: (100%/$count-skills);
-		padding: 0 15px;
+		width: 100%;
+		padding: 15px 25px;
 		text-align: center;
-		border-left: 1px solid map-get($grey, regular);
+		border-left: none;
+		border-bottom: 1px solid map-get($grey, regular);
 		color: map-get($blue, light);
+
+		&:last-child{
+			border-bottom: none;
+		}
+
+		@include breakpoint(tablet) {
+			padding: 0 15px;
+			width: (100%/$count-skills);
+			border-left: 1px solid map-get($grey, regular);
+			border-bottom: none;
+		}
 
 		img {
 			width: 60px;
