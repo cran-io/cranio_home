@@ -499,8 +499,57 @@ footer .we-are h2 {
   background: #ce0058;
   text-align: center;
 }
-.page-contact a.ghost {
+.page-contact button.ghost {
+  background-color: #CE0058;
   font-size: 1.4rem;
   border-width: 2px;
   margin: 24px 0;
+}
+
+.hidden {
+  display: none !important;
+}
+.send-button{
+  margin-left: 10%!important;
+}
+.contact-input{
+  width: 40%;
+  margin-right: 50%;
+  margin-left: 10%;
+  background-color: transparent;
+  border: solid 0px;
+  border-bottom: solid 2px white;
+  height: 70px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 25px;
+}
+.contact-input:focus{
+	outline: 0px;
+}
+#contact-form{
+  text-align: left;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+   font-size: 25px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+  font-size: 25px;
+  height: 20px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: white;
+  font-size: 25px;
+  height: 20px;
+}
+
+:-ms-input-placeholder {
+  color: white;
+  font-size: 25px;
+  height: 20px;
 }
