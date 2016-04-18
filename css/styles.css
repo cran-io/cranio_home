@@ -112,6 +112,12 @@ h3 {
 p {
   line-height: 1.4em;
 }
+.container{
+  width: 100%!important;
+}
+.row{
+  width: 100%!important;
+}
 
 .white {
   color: white;
@@ -226,6 +232,11 @@ footer h2 {
 }
 footer a {
   color: white;
+  font-size: 18px;
+}
+footer p {
+  color: white;
+  font-size: 18px;
 }
 footer a:hover {
   color: #ce0058;
