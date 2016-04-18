@@ -532,24 +532,30 @@ footer .we-are h2 {
 }
 
 ::-webkit-input-placeholder {
-   color: white;
+   color: rgba(255, 255, 255, 0.74);
    font-size: 25px;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-  color: white;
+  color: rgba(255, 255, 255, 0.74);
   font-size: 25px;
   height: 20px;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-  color: white;
+  color: rgba(255, 255, 255, 0.74);
   font-size: 25px;
   height: 20px;
 }
 
 :-ms-input-placeholder {
-  color: white;
+  color: rgba(255, 255, 255, 0.74);
   font-size: 25px;
   height: 20px;
+}
+
+.contact-animation{
+  margin-top: -348px;
+  -webkit-transition: margin-top 2s; /* Safari */
+  transition: margin-top 2s;
 }
