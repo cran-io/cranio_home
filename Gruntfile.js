@@ -2,14 +2,14 @@ module.exports = function(grunt){
 	grunt.initConfig({
 		compass:{
 			dist: {                   // Target
-		      options: {       
+		      options: {
 		      	outputStyle: 'expanded',       // Target options
 		        sassDir: 'sass',
 		        cssDir: 'css',
 		        environment: 'production'
 		      }
 		    },
-		    
+
 		},
 		watch: {
 			files:['sass/**/*.scss'],

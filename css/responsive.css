@@ -1,0 +1,44 @@
+/*MEDIA SIZE*/
+
+@media (max-width: 767px) { /*Para monitores xs*/
+  .contact-title {
+    font-size: 27px;
+    margin-bottom: 20px;}
+  .contact-input {
+    width: 80%;
+    height: 40px;
+    margin-bottom: 19px;
+    font-size: 20px;}
+    ::-webkit-input-placeholder {font-size: 20px;}
+    :-moz-placeholder {font-size: 20px;}
+    ::-moz-placeholder {font-size: 20px;}
+    :-ms-input-placeholder {font-size: 20px;}
+    .page-home-title{font-size: 28px;}
+    .page-home-subtitle{font-size: 17px;}
+
+
+}
+@media (min-width: 768px) and (max-width: 991px) { /*Para monitores sm*/
+
+}
+@media (min-width: 1600px){ /*Para monitores de resolucion muy grande*/
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px){ /*Para monitores md*/
+
+}
+
+/* portrait */
+@media screen and (max-width: 767px) and (orientation:portrait) { /*para celulares vertical*/
+
+}
+/* landscape */
+@media screen and (max-width: 767px) and (orientation:landscape) {  /*para celulares horizontal*/
+
+
+}
+
+@media screen and (max-width: 991px) and (orientation:landscape){
+
+  }

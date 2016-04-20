@@ -7,6 +7,7 @@
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 	<title> Cran.io | Desarrollo de hardware y software a medida </title>
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/responsive.css">
 	<script src="js/jquery.min.js"></script><!--JQuery 1.11.2 local -->
 	<script type="text/javascript" src="js/home.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -28,8 +29,8 @@
 			</div>
 		</header>
 		<section class="page-home valign-wrapper">
-			<div class="col-xs-8 col-xs-offset-2 text-center text-highlight white valign">
-				<h1 class="white">Somos el equipo técnico para tu proyecto</h1>
+			<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 text-center text-highlight white valign">
+				<p class="page-home-title">Somos el equipo técnico para tu proyecto</p>
 				<p class="page-home-subtitle">Desarrollamos software y hardware a medida para empresas y emprendedores</p>
 				<p class="page-home-subtitle">desde Buenos Aires, Argentina.</p>
 			</div>
@@ -64,39 +65,49 @@
 			</ul>
 		</section>
 		<section class="page-projects">
-			<h1>Proyectos</h1>
+			<p class="section-title">Proyectos</p>
 			<ul class="projects">
-				<li>
-					<div class="project-info">
-						<h2>Count It</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eleifend diam tellus, a fringilla massa commodo a. Curabitur ullamcorper mi libero, quis tincidunt mauris molestie sed.</p>
-						<a href="#" class="ghost">Ver más</a>
+				<li class="project-wrapper">
+					<div class="col-xs-12 col-md-5">
+						<img src="" alt="">
 					</div>
-					<img src="" alt="">
+					<div class="col-xs-12 col-md-7">
+						<p class="project-title">Count It</p>
+						<p class="project-text">Proporcionamos datos de tránsito en tiempo real con el fin de contribuir a mitigar las problemáticas de congestión, excesivos tiempos de viaje e imposibilidad de programación de itinerarios ocasionados por los altos volúmenes vehiculares.</p>
+						<p class="project-text">Así mismo nuestro producto proporciona una fuente de información confiable y eficiente para el estudio y/o implementación de proyectos de ingeniería.</p>
+						<a href="#" class="see-more-button">Ver más</a>
+					</div>
+
 				</li>
-				<li>
-					<div class="project-info">
-						<h2>Newine</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eleifend diam tellus, a fringilla massa commodo a. Curabitur ullamcorper mi libero, quis tincidunt mauris molestie sed.</p>
-						<a href="#" class="ghost">Ver más</a>
+				<li class="project-wrapper">
+					<div class="col-xs-12 col-md-7">
+						<p class="project-title">Newine</p>
+						<p class="project-text">Sistema de conservación y dispensación de vino mediante el cual se logra siempre la temperatura y condición correcta de servido . Además, gracias a la utilización de un ambiente controlado, las botellas de vino abiertas no se arruinan.</p>
+						<a href="#" class="see-more-button">Ver más</a>
 					</div>
-					<img src="" alt="">
+					<div class="col-xs-12 col-md-5">
+						<img src="" alt="">
+					</div>
 				</li>
-				<li>
-					<div class="project-info">
-						<h2>DEX</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eleifend diam tellus, a fringilla massa commodo a. Curabitur ullamcorper mi libero, quis tincidunt mauris molestie sed.</p>
-						<a href="#" class="ghost">Ver más</a>
+				<li class="project-wrapper">
+					<div class="col-xs-12 col-md-5">
+						<img src="" alt="">
 					</div>
-					<img src="" alt="">
+					<div class="col-xs-12 col-md-7">
+						<p class="project-title">DEX</p>
+						<p class="project-text">App Android y iOS para facilitar el contacto y comunicación entre las empresas y sus clientes. Con DEX podés recibir tus facturas directamente en tu teléfono y podés encontrar todos los teléfonos que necesites para llamar a las empresas.</p>
+						<a href="#" class="see-more-button">Ver más</a>
+					</div>
 				</li>
-				<li>
-					<div class="project-info">
-						<h2>TABI</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eleifend diam tellus, a fringilla massa commodo a. Curabitur ullamcorper mi libero, quis tincidunt mauris molestie sed.</p>
-						<a href="#" class="ghost">Ver más</a>
+				<li class="project-wrapper">
+					<div class="col-xs-12 col-md-7">
+						<p class="project-title">TABI</p>
+						<p class="project-text">Tabi es una tablet pensada y diseñada para educar y divertir a niños. Trabajamos en conjunto con Eurocase desarrollando el software y firmware necesario para la fabricación de las tablets en China.</p>
+						<a href="#" class="see-more-button">Ver más</a>
 					</div>
-					<img src="" alt="">
+					<div class="col-xs-12 col-md-5">
+						<img src="" alt="">
+					</div>
 				</li>
 			</ul>
 			<div class="flexslider comments">
@@ -185,7 +196,7 @@
 			</div>
 		</section>
 		<section class="page-team">
-			<h1>Talentos</h1>
+			<p class="section-title team-title">Talentos</p>
 			<div class="globe">¡Trabajá con nosotros!</div>
 			<div class="content-wrapper">
 				<ul class="team">
@@ -263,7 +274,7 @@
 			</div>
 		</section>
 		<section class="page-contact">
-			<h1 class="white">Amamos lo que hacemos y queremos trabajar con vos.</h1>
+			<p class="contact-title">Amamos lo que hacemos y queremos trabajar con vos.</p>
 			<button id="contact-button"  class="ghost white">Contactenos</button>
 			<div id="contact-form" class="hidden">
 				<input placeholder="Nombre" class="contact-input" type="text" name="usrname">
@@ -273,28 +284,40 @@
 			</div>
 		</section>
 		<footer class="white container">
-			<div class="row">
-				<div class="col-xs-3">
-					<h2>Contactanos</h2>
-					<a href="mailto:contacto@cran.io">contacto@cran.io</a><br>
-					<p>t: +54 47874897389 <br>
+			<div class="row no-margin">
+				<div class="col-md-3 hidden-sm hidden-xs">
+					<p class="footer-title">Contactanos</p>
+					<a class="footer-text" href="mailto:contacto@cran.io">contacto@cran.io</a><br>
+					<p class="footer-text">t: +54 47874897389 <br>
 						Uriarte 1882, Buenos Aires, Argentina.
 					</p>
 				</div>
-				<ul class="col-xs-3">
-					<li><h2>Seguinos</h2></li>
-					<li><a href="https://github.com/cran-io">Github</a></li>
-					<li><a href="https://www.facebook.com/be.cran.io/">facebook</a></li>
-					<li><a href="https://twitter.com/cran_io">twitter</a></li>
-					<li><a href="https://plus.google.com/b/113960977965563050039/113960977965563050039">google+</a></li>
-					<li><a href="#">blog</a></li>
+				<ul class="col-md-3 hidden-sm hidden-xs">
+					<li><p class="footer-title">Seguinos</p></li>
+					<li><a class="footer-text" href="https://github.com/cran-io">Github</a></li>
+					<li><a class="footer-text" href="https://www.facebook.com/be.cran.io/">facebook</a></li>
+					<li><a class="footer-text" href="https://twitter.com/cran_io">twitter</a></li>
+					<li><a class="footer-text" href="https://plus.google.com/b/113960977965563050039/113960977965563050039">google+</a></li>
+					<li><a class="footer-text" href="#">blog</a></li>
 				</ul>
 
-				<div class="col-xs-offset-2 col-xs-4">
-					<h2>Somos Cran.io</h2>
-					<p>
+				<div class="col-md-offset-2 col-md-4 col-xs-12">
+					<p class="footer-title">Somos Cran.io</p>
+					<p class="footer-text">
 						Una casa de desarrollo de hardware y software en el corazón de Palermo. Amamos la tecnología y construir productos innovadores  con impacto exponencial en la sociedad y en la vida cotidiana de la gente.
 					</p>
+				</div>
+				<div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+					<hr class="white">
+						<p class="footer-title">Contactanos</p>
+						<a class="footer-text" href="mailto:contacto@cran.io">contacto@cran.io</a><br>
+						<p class="footer-text">t: +54 47874897389 <br>
+							Uriarte 1882, Buenos Aires, Argentina.
+						</p>
+						<a class="footer-text footer-link">Instagram</a>
+						<a class="footer-text footer-link" href="https://www.facebook.com/be.cran.io/">Facebook</a>
+						<a class="footer-text footer-link" href="https://github.com/cran-io">Github</a>
+						<a class="footer-text footer-link" href="https://twitter.com/cran_io">Twitter</a>
 				</div>
 			</div>
 		</footer>
