@@ -3,7 +3,8 @@
 @media (max-width: 767px) { /*Para monitores xs*/
   .contact-title {
     font-size: 27px;
-    margin-bottom: 20px;}
+    margin-bottom: 20px;
+    margin-top: 20px;}
   .contact-input {
     width: 80%;
     height: 40px;
@@ -15,10 +16,41 @@
     :-ms-input-placeholder {font-size: 20px;}
     .page-home-title{font-size: 28px;}
     .page-home-subtitle{font-size: 17px;}
-
+    .footer-text{font-size: 13px;}
+    .footer-title {font-size: 22px;}
+    section {padding: 16px 0;}
+    .project-title {
+      line-height: 0.2em;
+      font-size: 24px!important;}
+    .project-text {font-size: 15px;}
+    .project-wrapper {margin-top: 7px;}
+    .navbar-nav > li > a {
+      padding-top: 6px!important;
+      padding-bottom: 6px!important;}
+    .section-title {font-size: 35px;}
+    .page-skills{ border-bottom: 1px solid #888;}
+    .see-more-button {
+      font-size: 16px;
+      padding: 6px 32px;
+      margin-top: 19px;
+      margin-bottom: 38px;}
+      button.ghost.navbar, a.ghost.navbar {
+        color: grey;
+        border: 1px solid grey;
+      }
+      header {padding: 0px}
+      header .logo {margin-top: 20px;}
+      .navbar-nav > li > a {
+        line-height: 51px!important;
+        font-size: 27px!important;}
 
 }
 @media (min-width: 768px) and (max-width: 991px) { /*Para monitores sm*/
+  header {padding: 0px}
+  header .logo {margin-top: 20px;}
+  .navbar-nav > li > a {
+    line-height: 51px!important;
+    font-size: 27px!important;}
 
 }
 @media (min-width: 1600px){ /*Para monitores de resolucion muy grande*/

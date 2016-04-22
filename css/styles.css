@@ -204,18 +204,23 @@ button.ghost, a.ghost {
 .see-more-button{
   font-family: 'lato-black';
   font-size: 18px;
-  border: 2px solid rgb(51, 122, 183);
+  border: 2px solid #6C6F98;
   padding: 10px 50px;
   display: inline-block;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
   border-radius: 7px;
+  color: #6C6F98!important;
 }
 button.ghost:hover, a.ghost:hover {
   color: #ce0058;
   border: 1px solid #ce0058;
 }
 button.ghost.white, a.ghost.white {
+  color: white;
+  border: 1px solid white;
+}
+button.ghost.navbar, a.ghost.navbar {
   color: white;
   border: 1px solid white;
 }
@@ -596,12 +601,14 @@ footer .we-are h2 {
 .page-contact {
   background: #ce0058;
   text-align: center;
+  padding-top: 0px!important;
 }
 .page-contact button.ghost {
   background-color: #CE0058;
   font-size: 2rem;
   border-width: 2px;
   margin: 24px 0;
+
 }
 
 .hidden {
@@ -681,6 +688,7 @@ footer .we-are h2 {
   font-family: 'f-book';
   font-size: 40px;
   color: #FFFFFF ;
+  padding-top: 45px;
 }
 .project-wrapper{
   margin-top: 80px;
@@ -712,4 +720,73 @@ footer .we-are h2 {
 }
 .no-padding{
   padding:0px!important;
+}
+.work-with-us-container{
+  background-color: #6C6F98;
+  height: 200px;
+  text-align: center;
+  margin-top:30px;
+}
+.work-with-us-button{
+  color: white!important;
+  border: solid 3px white;
+  margin: auto!important;
+  background-color: #6C6F98;
+  font-family: 'f-medium';
+  font-size: 19px;
+  padding: 10px 15px;
+}
+
+.xs-talents{
+  width: 100%;
+}
+.talents-title{
+  text-align: center;
+  font-family: 'f-light';
+}
+
+.navbar-toggle {
+    position: absolute!important;
+    float: right;
+    top: 20px!important;
+    right: 0!important;
+    padding: 9px 10px;
+    margin-top: 0px!important;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.navbar-collapse{
+      padding-top: 40px;
+}
+.glyphicon-menu-hamburger{
+  font-size: 24px;
+  color:white;
+}
+.glyphicon-remove-circle{
+  color:grey;
+  font-size: 24px;
+}
+.navbar-collapse {
+    background-color: white;
+    -webkit-box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.1)!important;
+    box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.1)!important;
+}
+
+.button-close{
+    background-image: url('./images/close.png')!important;
+    background-size: 100% 100%!important;
+}
+#close-contact-button{
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  border: transparent;
+  font-size: 24px;
+  color: white;
+  margin-right: 15px;
+  font-family: 'f-light';
 }

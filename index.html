@@ -16,17 +16,32 @@
 <body>
 	<div class="page-wrapper">
 		<header>
-			<div class="container navbar-container">
+			<div id="navbar-brand-container" class="container navbar-container">
 				<div class="logo"><img src="images/logo.svg" alt="Logo"></div>
 				<nav>
-					<ul class="page-navbar text-highlight">
+					<ul class="page-navbar text-highlight hidden-xs hidden-sm">
 						<li><a class="navbar-link" href="#">Proyectos</a></li>
 						<li><a class="navbar-link" href="#">Equipo</a></li>
 						<li><a class="navbar-link" href="#">LAB</a></li>
 						<li><a class="navbar-link ghost white" href="#">Contactanos</a></li>
 					</ul>
+
+
 				</nav>
 			</div>
+			<button type="button" class="navbar-toggle collapsed hidden-md hidden-lg" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span id="responsive-navbar-button" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+			</button>
+			<div class="collapse navbar-collapse hidden-md hidden-lg" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a class="navbar-link responsive-menu" href="#">Proyectos</a></li>
+					<li><a class="navbar-link responsive-menu" href="#">Equipo</a></li>
+					<li><a class="navbar-link responsive-menu" href="#">LAB</a></li>
+					<li><a class="navbar-link responsive-menu" href="#">Contactanos</a></li>
+
+				</ul>
+			</div>
+
 		</header>
 		<section class="page-home valign-wrapper">
 			<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 text-center text-highlight white valign">
@@ -110,7 +125,7 @@
 					</div>
 				</li>
 			</ul>
-			<div class="flexslider comments">
+			<div class="flexslider comments hidden-xs hidden-sm">
 				<ul class="slides">
 					<li>
 						<div class="comment">
@@ -194,11 +209,14 @@
 					</li>
 				</ul>
 			</div>
+			<div class="hidden-md hidden-lg work-with-us-container valign-wrapper">
+				<button class="valign work-with-us-button">¡Trabajá con nosotros!</button
+			</div>
 		</section>
 		<section class="page-team">
 			<p class="section-title team-title">Talentos</p>
-			<div class="globe">¡Trabajá con nosotros!</div>
-			<div class="content-wrapper">
+			<div class="globe hidden-xs hidden-sm">¡Trabajá con nosotros!</div>
+			<div class="content-wrapper hidden-xs hidden-sm">
 				<ul class="team">
 					<li>
 						<div class="black-box">
@@ -272,10 +290,37 @@
 					</li>
 				</ul>
 			</div>
+			<div class="hidden-md hidden-lg">
+				<div class="col-xs-4">
+					<img src="images/team/test.jpg" class="xs-talents">
+					<p class="talents-title">Delfina Polito</p>
+				</div>
+				<div class="col-xs-4">
+					<img src="images/team/test.jpg" class="xs-talents">
+					<p class="talents-title">Claudio Angrigiani</p>
+				</div>
+				<div class="col-xs-4">
+					<img src="images/team/test.jpg" class="xs-talents">
+					<p class="talents-title">Juan Bautista Carpanelli</p>
+				</div>
+				<div class="col-xs-4">
+					<img src="images/team/test.jpg" class="xs-talents">
+					<p class="talents-title">Agustin Quintana Murta</p>
+				</div>
+				<div class="col-xs-4">
+					<img src="images/team/test.jpg" class="xs-talents">
+					<p class="talents-title">Sol Rubado</p>
+				</div>
+				<div class="col-xs-4">
+					<img src="images/team/test.jpg" class="xs-talents">
+					<p class="talents-title">Gonzalo Pombo</p>
+				</div>
+			</div>
 		</section>
 		<section class="page-contact">
+			<button id="close-contact-button"  class="pull-right hidden" >x</button>
 			<p class="contact-title">Amamos lo que hacemos y queremos trabajar con vos.</p>
-			<button id="contact-button"  class="ghost white">Contactenos</button>
+			<button id="contact-button"  class="ghost white">Contactanos</button>
 			<div id="contact-form" class="hidden">
 				<input placeholder="Nombre" class="contact-input" type="text" name="usrname">
 				<input placeholder="Email" class="contact-input" type="text" name="usrname">
@@ -307,7 +352,7 @@
 						Una casa de desarrollo de hardware y software en el corazón de Palermo. Amamos la tecnología y construir productos innovadores  con impacto exponencial en la sociedad y en la vida cotidiana de la gente.
 					</p>
 				</div>
-				<div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+				<div class="col-xs-12  hidden-md hidden-lg">
 					<hr class="white">
 						<p class="footer-title">Contactanos</p>
 						<a class="footer-text" href="mailto:contacto@cran.io">contacto@cran.io</a><br>
