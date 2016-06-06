@@ -388,7 +388,7 @@ footer .we-are h2 {
   padding: 15px 25px;
   text-align: center;
   border-left: none;
-  border-bottom: 1px solid #888;
+  border-bottom: 1px solid #6c6f98;
   color: #6c6f98;
 }
 .skills li:last-child {
@@ -398,7 +398,7 @@ footer .we-are h2 {
   .skills li {
     padding: 0 15px;
     width: 20%;
-    border-left: 1px solid #888;
+    border-left: 1px solid #6c6f98;
     border-bottom: none;
   }
 }
