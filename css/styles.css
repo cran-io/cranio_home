@@ -20,6 +20,13 @@
   font-style: normal;
 }
 @font-face {
+  font-family: 'helveticaLight';
+  src: url("../fonts/Helvetica/Helvetica-Light.otf") format("truetype");
+  font-weight: normal;
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'lato-light';
   src: url("../fonts/Lato-Bold/Lato-Light.ttf") format("truetype");
   font-weight: normal;
@@ -211,6 +218,12 @@ button.ghost, a.ghost {
   -webkit-border-radius: 7px;
   border-radius: 7px;
   color: #6C6F98!important;
+  margin-top: 25px;
+}
+.see-more-button:hover{
+  background-color: #6C6F98;
+  color: white!important;
+  text-decoration: none!important;
 }
 button.ghost:hover, a.ghost:hover {
   color: #ce0058;
@@ -670,20 +683,21 @@ footer .we-are h2 {
 }
 
 .project-title{
-  color: #000000 ;
+  color: #595B86 ;
   letter-spacing: 1.65px;
   font-family: 'f-light';
   line-height: 1.2em;
   padding: 24px 0 15px;
   text-align: center;
-  font-size: 30px!important;
+  font-size: 34px!important;
+  margin-bottom: 10px;
 }
 .project-text{
-  font-size: 19px;
+  font-size: 18px;
   color: #666666 ;
   margin-left: 30px;
   margin-right: 30px;
-  font-family: 'Helvetica';
+  font-family: 'HelveticaLight';
 }
 .team-title{
   margin-top: 24px;
@@ -695,7 +709,7 @@ footer .we-are h2 {
   padding-top: 45px;
 }
 .project-wrapper{
-  margin-top: 80px;
+  margin-top: 150px;
 }
 .footer-title{
   font-family: 'f-medium';
