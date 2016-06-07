@@ -28,7 +28,7 @@
 }
 @font-face {
   font-family: 'lato-light';
-  src: url("../fonts/Lato-Bold/Lato-Light.ttf") format("truetype");
+  src: url("../fonts/Lato-Light/Lato-Light.ttf") format("truetype");
   font-weight: normal;
   font-weight: normal;
   font-style: normal;
@@ -231,7 +231,7 @@ button.ghost:hover, a.ghost:hover {
 }
 button.ghost.white, a.ghost.white {
   color: white;
-  border: 1px solid white;
+  border: 2px solid white;
 }
 button.ghost.navbar, a.ghost.navbar {
   color: white;
@@ -560,7 +560,7 @@ footer .we-are h2 {
   text-align: center;
 }
 .page-team .team .black-box {
-  background: rgba(22, 76, 137, 0.6);
+  background: rgba(22, 76, 137, 0.3);
   opacity: 0;
   width: 100%;
   height: 100%;
@@ -697,7 +697,7 @@ footer .we-are h2 {
   color: #666666 ;
   margin-left: 30px;
   margin-right: 30px;
-  font-family: 'HelveticaLight';
+  font-family: 'lato-light';
 }
 .team-title{
   margin-top: 24px;
@@ -807,4 +807,19 @@ footer .we-are h2 {
   color: white;
   margin-right: 15px;
   font-family: 'f-medium';
+}
+
+a:hover, a:focus {
+    color: #ce0058!important;
+    text-decoration: none!important;
+}
+
+a.ghost.white:hover {
+  color: #ce0058;
+  border: 2px solid #ce0058;
+  opacity: 1!important;
+}
+
+.noMargin{
+  margin: 0px!important;
 }
