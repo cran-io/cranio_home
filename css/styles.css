@@ -209,7 +209,7 @@ button.ghost, a.ghost {
   border-radius: 4px;
 }
 .see-more-button{
-  font-family: 'lato-black';
+  font-family: 'f-bold';
   font-size: 18px;
   border: 2px solid #6C6F98;
   padding: 10px 50px;
@@ -343,6 +343,7 @@ footer .we-are h2 {
   padding-left: 15px;
   padding-right: 15px;
   border-radius: 10px!important;
+  letter-spacing: 1px;
 }
 .page-home {
   background: transparent url(../images/home-bg.jpg) no-repeat center center;
@@ -645,6 +646,8 @@ footer .we-are h2 {
   margin-bottom: 10px;
   color: white;
   font-size: 25px;
+  font-family: 'f-book';
+  letter-spacing: 1px;
 }
 .contact-input:focus{
 	outline: 0px;
@@ -808,7 +811,14 @@ footer .we-are h2 {
   margin-right: 15px;
   font-family: 'f-medium';
 }
-
+#contact-button{
+  font-family: 'f-book';
+  letter-spacing: 1px;
+}
+#send-button{
+  font-family: 'f-book';
+  letter-spacing: 1px;
+}
 a:hover, a:focus {
     color: #ce0058!important;
     text-decoration: none!important;
