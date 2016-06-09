@@ -87,14 +87,7 @@ $( document ).ready(function() {
         $("#JaviImg").attr('src', "images/team/javi.jpg");
       }
     );
-    $("#Chino").hover(
-      function () {
-        $("#ChinoImg").attr('src', "images/team/chino1.jpg");
-      },
-      function () {
-        $("#ChinoImg").attr('src', "images/team/chino.jpg");
-      }
-    );
+
     $("#Delfi").hover(
       function () {
         $("#DelfiImg").attr('src', "images/team/delfi1.jpg");
@@ -118,14 +111,6 @@ $( document ).ready(function() {
       },
       function () {
         $("#ClauImg").attr('src', "images/team/clau.jpg");
-      }
-    );
-    $("#Belu").hover(
-      function () {
-        $("#BeluImg").attr('src', "images/team/belu1.jpg");
-      },
-      function () {
-        $("#BeluImg").attr('src', "images/team/belu.jpg");
       }
     );
     $("#Agus").hover(

@@ -530,8 +530,8 @@ footer .we-are h2 {
 
 .page-team .globe {
   color: white;
-  padding: 15px;
-  margin-left: 124px;
+  padding: 9px 15px;
+  margin-left: 148px;
   background: #6c6f98;
   top: 20px;
   -moz-border-radius: 4px;
@@ -681,6 +681,9 @@ footer .we-are h2 {
 
 .contact-animation{
   margin-top: -245px;
+  height: 560px;
+  -webkit-transition: height 2s;
+  transition: height 2s;
   -webkit-transition: margin-top 2s; /* Safari */
   transition: margin-top 2s;
 }
